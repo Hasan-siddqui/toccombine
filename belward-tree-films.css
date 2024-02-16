@@ -887,48 +887,63 @@ textarea.w-select {
     .w-container {
         max-width: 728px
     }
+
     .w-hidden-main {
         display: inherit !important
     }
+
     .w-hidden-medium {
         display: none !important
     }
+
     .w-col-medium-1 {
         width: 8.33333%
     }
+
     .w-col-medium-2 {
         width: 16.6667%
     }
+
     .w-col-medium-3 {
         width: 25%
     }
+
     .w-col-medium-4 {
         width: 33.3333%
     }
+
     .w-col-medium-5 {
         width: 41.6667%
     }
+
     .w-col-medium-6 {
         width: 50%
     }
+
     .w-col-medium-7 {
         width: 58.3333%
     }
+
     .w-col-medium-8 {
         width: 66.6667%
     }
+
     .w-col-medium-9 {
         width: 75%
     }
+
     .w-col-medium-10 {
         width: 83.3333%
     }
+
     .w-col-medium-11 {
         width: 91.6667%
     }
+
     .w-col-medium-12 {
         width: 100%
     }
+
     .w-col-stack {
         width: 100%;
         left: auto;
@@ -937,56 +952,72 @@ textarea.w-select {
 }
 
 @media screen and (max-width:767px) {
+
     .w-hidden-main,
     .w-hidden-medium {
         display: inherit !important
     }
+
     .w-hidden-small {
         display: none !important
     }
+
     .w-row,
     .w-container .w-row {
         margin-left: 0;
         margin-right: 0
     }
+
     .w-col {
         width: 100%;
         left: auto;
         right: auto
     }
+
     .w-col-small-1 {
         width: 8.33333%
     }
+
     .w-col-small-2 {
         width: 16.6667%
     }
+
     .w-col-small-3 {
         width: 25%
     }
+
     .w-col-small-4 {
         width: 33.3333%
     }
+
     .w-col-small-5 {
         width: 41.6667%
     }
+
     .w-col-small-6 {
         width: 50%
     }
+
     .w-col-small-7 {
         width: 58.3333%
     }
+
     .w-col-small-8 {
         width: 66.6667%
     }
+
     .w-col-small-9 {
         width: 75%
     }
+
     .w-col-small-10 {
         width: 83.3333%
     }
+
     .w-col-small-11 {
         width: 91.6667%
     }
+
     .w-col-small-12 {
         width: 100%
     }
@@ -996,50 +1027,65 @@ textarea.w-select {
     .w-container {
         max-width: none
     }
+
     .w-hidden-main,
     .w-hidden-medium,
     .w-hidden-small {
         display: inherit !important
     }
+
     .w-hidden-tiny {
         display: none !important
     }
+
     .w-col {
         width: 100%
     }
+
     .w-col-tiny-1 {
         width: 8.33333%
     }
+
     .w-col-tiny-2 {
         width: 16.6667%
     }
+
     .w-col-tiny-3 {
         width: 25%
     }
+
     .w-col-tiny-4 {
         width: 33.3333%
     }
+
     .w-col-tiny-5 {
         width: 41.6667%
     }
+
     .w-col-tiny-6 {
         width: 50%
     }
+
     .w-col-tiny-7 {
         width: 58.3333%
     }
+
     .w-col-tiny-8 {
         width: 66.6667%
     }
+
     .w-col-tiny-9 {
         width: 75%
     }
+
     .w-col-tiny-10 {
         width: 83.3333%
     }
+
     .w-col-tiny-11 {
         width: 91.6667%
     }
+
     .w-col-tiny-12 {
         width: 100%
     }
@@ -1728,31 +1774,38 @@ textarea.w-select {
         height: 96vh;
         margin-top: 2vh
     }
+
     .w-lightbox-view,
     .w-lightbox-view:before {
         height: 96vh
     }
+
     .w-lightbox-group,
     .w-lightbox-group .w-lightbox-view,
     .w-lightbox-group .w-lightbox-view:before {
         height: 84vh
     }
+
     .w-lightbox-image {
         max-width: 96vw;
         max-height: 96vh
     }
+
     .w-lightbox-group .w-lightbox-image {
         max-width: 82.3vw;
         max-height: 84vh
     }
+
     .w-lightbox-left,
     .w-lightbox-right {
         opacity: .5;
         display: block
     }
+
     .w-lightbox-close {
         opacity: .8
     }
+
     .w-lightbox-control:hover {
         opacity: 1
     }
@@ -2045,6 +2098,7 @@ textarea.w-select {
     .w-nav[data-collapse=medium] .w-nav-menu {
         display: none
     }
+
     .w-nav[data-collapse=medium] .w-nav-button {
         display: block
     }
@@ -2054,9 +2108,11 @@ textarea.w-select {
     .w-nav[data-collapse=small] .w-nav-menu {
         display: none
     }
+
     .w-nav[data-collapse=small] .w-nav-button {
         display: block
     }
+
     .w-nav-brand {
         padding-left: 10px
     }
@@ -2066,6 +2122,7 @@ textarea.w-select {
     .w-nav[data-collapse=tiny] .w-nav-menu {
         display: none
     }
+
     .w-nav[data-collapse=tiny] .w-nav-button {
         display: block
     }
@@ -2139,6 +2196,7 @@ textarea.w-select {
     0% {
         transform: rotate(0)
     }
+
     to {
         transform: rotate(360deg)
     }
@@ -3298,7 +3356,7 @@ label {
 .menu__expand {
     grid-column-gap: 160px;
     grid-row-gap: 0px;
-    grid-template: "."/1fr 1fr;
+    grid-template: "." /1fr 1fr;
     grid-auto-columns: 1fr;
     grid-auto-flow: row;
     align-self: center;
@@ -4577,47 +4635,61 @@ label {
     .menu-text:hover {
         color: #fff
     }
+
     .video {
         width: 65vw
     }
+
     .sub-nav {
         max-width: none
     }
+
     .sub-nav-item {
         margin-left: 40px
     }
+
     .about {
         width: 42%
     }
+
     .stamp {
         background-image: url(https://uploads-ssl.webflow.com/5f5092a06341960dfc1239c9/61469aaf2581ed79f68535a5_stamp-2021.svg)
     }
+
     .code:hover {
         filter: none
     }
+
     .thumbnail_photo {
         cursor: pointer
     }
+
     .slide-item,
     .slide-item:nth-child(2n) {
         margin-bottom: 0
     }
+
     .img_photo-code:hover {
         filter: none
     }
+
     .credit-text {
         font-size: 18px
     }
+
     .caption-text {
         font-size: 32px
     }
+
     .press-text {
         text-transform: uppercase;
         font-size: 18px
     }
+
     ._2-column {
         grid-column-gap: 8px
     }
+
     .package-grid._2-column {
         grid-column-gap: 12px;
         grid-row-gap: 12px;
@@ -4626,6 +4698,7 @@ label {
         grid-auto-columns: 1fr;
         display: grid
     }
+
     .package-grid._3-column {
         grid-column-gap: 12px;
         grid-row-gap: 12px;
@@ -4634,6 +4707,7 @@ label {
         grid-auto-columns: 1fr;
         display: grid
     }
+
     .tabs {
         margin-left: auto;
         margin-right: auto;
@@ -4646,29 +4720,36 @@ label {
     .body {
         cursor: auto
     }
+
     .menu__cta {
         cursor: pointer;
         margin-top: 40px;
         margin-left: 40px
     }
+
     .logo {
         cursor: pointer
     }
+
     .nav {
         width: 80%
     }
+
     .bg {
         display: block
     }
+
     .page__title {
         top: 40px;
         left: 40px
     }
+
     .menu-container {
         margin-bottom: 40px;
         margin-left: 40px;
         margin-right: 40px
     }
+
     .sub-nav {
         flex-direction: column;
         align-items: flex-end;
@@ -4676,40 +4757,51 @@ label {
         margin-right: 40px;
         display: flex
     }
+
     .sub-nav-item {
         margin-left: 32px;
         display: flex
     }
+
     .sub-nav-item.w--current {
         display: flex
     }
+
     .sub-nav-item.last {
         margin-bottom: 0
     }
+
     .about-container {
         padding-left: 56px;
         padding-right: 56px
     }
+
     .name {
         margin-left: 0%
     }
+
     .img_about {
         min-width: 288px
     }
+
     .about {
         width: 46%
     }
+
     .divider {
         width: 85%;
         float: right
     }
+
     .divider.press,
     .divider.retreat {
         width: 100%
     }
+
     .contact {
         margin-left: 6%
     }
+
     .stamp {
         min-height: 112px;
         min-width: 112px;
@@ -4717,17 +4809,21 @@ label {
         top: 88%;
         left: 78%
     }
+
     .scroll {
         cursor: auto
     }
+
     .heading-4 {
         margin-bottom: 4px;
         font-size: 28px;
         line-height: 36px
     }
+
     .img_press {
         object-fit: contain
     }
+
     .ax-icon {
         width: 28px;
         height: 28px;
@@ -4735,195 +4831,248 @@ label {
         margin-bottom: 8px;
         margin-right: 0
     }
+
     .ax-icon.active {
         align-self: flex-start;
         margin-bottom: 8px
     }
+
     .leaves {
         display: block;
         right: -32px
     }
+
     .circle {
         width: 24vw;
         height: 24vw
     }
+
     .tree-rings,
     .tree-rings.film {
         width: 21vw;
         height: 21vw
     }
+
     .tree-rings.retreat.film {
         width: 112px;
         height: 112px
     }
+
     .cursor-wrapper {
         cursor: auto;
         display: none
     }
+
     .scroll-wrapper {
         cursor: auto
     }
+
     .img_press-container,
     .press_grid {
         cursor: pointer
     }
+
     .heading-5 {
         font-size: 20px;
         line-height: 28px
     }
+
     .menu__expand {
         flex-direction: row;
         padding-left: 32px;
         padding-right: 32px;
         display: flex
     }
+
     .menu-wrapper {
         height: auto
     }
+
     .items {
         margin-left: 38%
     }
+
     .main-wrap {
         height: 100%;
         cursor: auto
     }
+
     .subnav-text {
         margin-right: 0
     }
+
     .item {
         grid-column-gap: 40px;
         grid-template-columns: minmax(160px, .91fr) 2fr;
         overflow: visible
     }
+
     .press__grid {
         grid-column-gap: 40px
     }
+
     .menu-contact-items {
         margin-left: 38%
     }
+
     .thumbnail_photo {
         cursor: pointer
     }
+
     .menu__about {
         margin-bottom: -4px
     }
+
     .img_photo-code,
     .thumbnail_video {
         cursor: pointer
     }
+
     .credit-text {
         font-size: 12px
     }
+
     .i {
         cursor: pointer
     }
+
     .logo-loop-animation {
         width: 200px
     }
+
     .external-link {
         cursor: pointer
     }
+
     .mfp-close.commitment {
         margin-top: 16px;
         margin-right: 16px
     }
+
     .caption-text {
         font-size: 18px
     }
+
     .credit-overlay {
         padding-bottom: 16px;
         padding-left: 16px;
         padding-right: 16px
     }
+
     .press-text {
         font-size: 12px
     }
+
     .form-heading {
         font-size: 56px
     }
+
     .field-label,
     .form-text {
         font-size: 16px
     }
+
     .form-text.other {
         margin-bottom: -4px
     }
+
     .hours-row {
         grid-column-gap: 4px
     }
+
     .image-grid {
         grid-row-gap: 8px;
         flex-direction: column
     }
+
     .img_package {
         width: 100%
     }
+
     .sidebar {
         width: 160px;
         padding-left: 16px;
         padding-right: 24px
     }
+
     .checkbox {
         width: 16px;
         height: 16px;
         margin-top: 4px;
         margin-left: -24px
     }
+
     .checkbox.confirmation {
         margin-top: 0
     }
+
     .checkbox.other {
         margin-left: -16px
     }
+
     .field-checkbox {
         padding-left: 24px
     }
+
     .field-checkbox.other {
         padding-left: 16px
     }
+
     .img_location {
         width: 100%;
         height: 200px
     }
+
     .radio {
         width: 16px;
         height: 16px;
         margin-left: -24px
     }
+
     .radio.payment {
         margin-bottom: 0
     }
+
     .radio.package {
         margin-top: 9px
     }
+
     .field-radio {
         padding-left: 48px
     }
+
     .field-radio.no-border {
         margin-left: 48px
     }
+
     .success-message {
         font-size: 20px;
         line-height: 28px
     }
+
     .time-indicator.form-text {
         margin-top: 12px
     }
+
     .link {
         cursor: pointer
     }
+
     .accordion-title {
         font-size: 24px
     }
+
     .tabs {
         margin-right: 160px;
         padding-left: 32px;
         padding-right: 32px
     }
+
     .thank-you {
         font-size: 24px;
         line-height: 32px
     }
+
     .retreat-ended-container {
         padding-left: 32px;
         padding-right: 32px
@@ -4934,23 +5083,29 @@ label {
     p {
         margin-bottom: 0
     }
+
     .body {
         cursor: auto
     }
+
     .menu__cta {
         margin-top: 32px;
         margin-left: 32px
     }
+
     .logo.about-page {
         display: none
     }
+
     .logomark {
         width: 80px;
         height: 60px
     }
+
     .nav {
         position: fixed
     }
+
     .nav.vertical {
         width: 100%;
         height: auto;
@@ -4966,13 +5121,16 @@ label {
         left: 0%;
         right: 0%
     }
+
     .nav-text.retreat {
         font-size: 18px
     }
+
     .nav-item.retreat {
         margin-left: 0;
         margin-right: 0
     }
+
     .video {
         width: auto;
         height: auto;
@@ -4982,19 +5140,23 @@ label {
         margin-right: 32px;
         position: static
     }
+
     .menu__full-screen {
         z-index: 2;
         position: fixed
     }
+
     .page__title {
         top: 32px;
         left: 32px
     }
+
     .menu-container {
         margin-bottom: 32px;
         margin-left: 32px;
         margin-right: 32px
     }
+
     .sub-nav {
         flex-direction: column;
         align-items: flex-end;
@@ -5002,51 +5164,63 @@ label {
         margin-right: 32px;
         display: flex
     }
+
     .sub-nav-item.w--current {
         margin-bottom: 4px
     }
+
     .sub-nav-item.last {
         margin-bottom: 0
     }
+
     .about-container {
         height: auto;
         margin-top: 120px;
         padding-left: 32px;
         padding-right: 32px
     }
+
     .img_about {
         width: 60vw
     }
+
     .about {
         width: 100%;
         max-width: none;
         float: none;
         position: static
     }
+
     .about-text {
         margin-bottom: 32px;
         font-size: 18px
     }
+
     .divider {
         width: 40%;
         float: left;
         margin-bottom: 8px
     }
+
     .adress,
     .mobile {
         text-align: left
     }
+
     .contact-vertical {
         margin-bottom: -24px
     }
+
     .job-title {
         display: none
     }
+
     .contact {
         width: auto;
         margin-bottom: 96px;
         display: block
     }
+
     .stamp {
         width: 160px;
         height: 160px;
@@ -5058,55 +5232,68 @@ label {
         top: 80%;
         left: 63%
     }
+
     .scroll {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         overflow: visible
     }
+
     .press-container {
         padding-left: 32px;
         padding-right: 32px
     }
+
     .about-wrapper {
         padding-top: 0;
         padding-bottom: 0
     }
+
     .podcast {
         margin-bottom: 48px
     }
+
     .summary,
     .ax-icon.active {
         display: none
     }
+
     .circle.retreat {
         width: 80px;
         height: 80px
     }
+
     .nav-text-1st,
     .nav-text-2nd {
         color: #417086
     }
+
     .text-wrap.retreat-contact {
         margin-top: 0
     }
+
     .text-wrap.retreat {
         margin-bottom: 4px
     }
+
     .tree-rings.retreat,
     .tree-rings.retreat.film {
         width: 80px;
         height: 80px
     }
+
     .cursor-wrapper {
         display: none
     }
+
     .scroll-wrapper {
         width: 100%;
         position: static;
         top: auto;
         bottom: auto
     }
+
     .menu__expand {
         width: 320px;
         flex: 0 auto;
@@ -5117,48 +5304,59 @@ label {
         padding-right: 0;
         display: block
     }
+
     .menu-wrapper {
         z-index: 10;
         margin-top: 16vh;
         display: block;
         position: relative
     }
+
     .menu-items.info {
         top: -72px
     }
+
     .menu-items.contact-details {
         display: inline;
         position: static;
         top: 0
     }
+
     .menu__item.menu__contact,
     .menu__item.phone__number {
         font-size: 24px;
         line-height: 32px
     }
+
     .menu__item.banner {
         font-size: 20px;
         line-height: 28px
     }
+
     .menu_heading {
         margin-left: 0;
         position: relative
     }
+
     .items {
         margin-left: 128px
     }
+
     .subnav-text {
         margin-right: 0
     }
+
     .item {
         grid-column-gap: 32px;
         grid-template-columns: 1fr 1fr
     }
+
     .press__grid {
         grid-column-gap: 32px;
         grid-row-gap: 32px;
         grid-template-columns: 1fr 1fr
     }
+
     .scroll-container {
         width: 100%;
         height: auto;
@@ -5168,47 +5366,58 @@ label {
         padding-right: 32px;
         display: block
     }
+
     .thumbnail_photo {
         width: 100%;
         height: auto;
         margin-bottom: 24px;
         margin-right: 0
     }
+
     .slide-wrapper {
         width: auto;
         height: auto;
         display: block
     }
+
     .thumbnail-list {
         width: auto;
         height: auto;
         flex-direction: column;
         align-items: flex-start
     }
+
     .slide-item {
         width: 100%;
         margin-right: 0
     }
+
     .slide-item:nth-child(2n+1) {
         margin-bottom: 0
     }
+
     .slide-item:nth-child(2n) {
         margin-top: 0
     }
+
     .slide-item:first-child {
         margin-top: 120px;
         margin-left: 0
     }
+
     .slide-item:last-child {
         margin-bottom: 80px;
         margin-right: 0
     }
+
     .slide-item.photo-page:nth-child(2n+1) {
         margin-bottom: 0
     }
+
     .slide-item.photo-page:nth-child(2n) {
         margin-top: 0
     }
+
     .menu {
         width: auto;
         height: auto;
@@ -5217,6 +5426,7 @@ label {
         display: flex;
         position: static
     }
+
     .thumbnail_video {
         width: 100%;
         height: 72vh;
@@ -5224,75 +5434,96 @@ label {
         margin-bottom: 40px;
         margin-right: 0
     }
+
     .caption-overlay {
         width: 100%
     }
+
     .credit-text {
         font-size: 14px
     }
+
     .menu-gradient {
         display: block
     }
+
     .commitment-heading {
         margin-bottom: 8px;
         font-size: 40px;
         line-height: 40px
     }
+
     .logo-loop-animation {
         width: 160px
     }
+
     .commitment-text {
         font-size: 18px
     }
+
     .mfp-close.commitment {
         margin-top: 8px;
         margin-right: 8px
     }
+
     .scroll-arrow {
         display: none
     }
+
     ._404-heading {
         margin-bottom: 8px;
         font-size: 40px;
         line-height: 40px
     }
+
     ._404-text {
         font-size: 18px
     }
+
     .caption-text {
         font-size: 20px
     }
+
     .credit-overlay {
         width: 100%;
         padding-bottom: 24px;
         padding-left: 24px;
         padding-right: 24px
     }
+
     .press-text {
         font-size: 14px
     }
+
     .banner-container {
         position: fixed
     }
+
     .banner-text {
         font-size: 24px;
         line-height: 32px
     }
+
     .form-text {
         font-size: 18px
     }
+
     .form-text.readjust {
         margin-bottom: 1px
     }
+
     .form-text.other {
         margin-bottom: -5px
     }
+
     ._2-column {
         grid-column-gap: 20px
     }
+
     .img_package {
         height: 240px
     }
+
     .sidebar {
         width: auto;
         height: auto;
@@ -5303,35 +5534,43 @@ label {
         padding-left: 24px;
         position: relative
     }
+
     .checkbox {
         margin-top: 4px
     }
+
     .radio.readjust {
         margin-bottom: 4px
     }
+
     .field-radio {
         font-size: 18px
     }
+
     .success-message {
         padding-left: 56px;
         padding-right: 56px
     }
+
     .error-message {
         font-size: 20px;
         line-height: 28px
     }
+
     .tabs {
         max-width: none;
         margin-left: 0;
         margin-right: 0;
         padding: 40px 32px
     }
+
     .contact-container {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         display: flex
     }
+
     .retreat-ended-container {
         font-size: 20px;
         line-height: 28px
@@ -5342,13 +5581,16 @@ label {
     p {
         margin-bottom: 0
     }
+
     .menu__cta {
         margin-top: 32px;
         margin-left: 32px
     }
+
     .logo {
         display: block
     }
+
     .nav {
         width: 100%;
         grid-row-gap: 0px;
@@ -5359,22 +5601,27 @@ label {
         margin-top: 22%;
         margin-bottom: 26%
     }
+
     .nav.vertical {
         grid-column-gap: 20px;
         margin-top: 0%;
         margin-bottom: 0%
     }
+
     .sub-nav {
         margin-top: 32px
     }
+
     .sub-nav-item.last {
         margin-bottom: 0
     }
+
     .about-container {
         margin-top: 120px;
         padding-left: 32px;
         padding-right: 32px
     }
+
     .img_about {
         max-width: none;
         min-width: auto;
@@ -5382,6 +5629,7 @@ label {
         object-position: 50% 100%;
         overflow: visible
     }
+
     .contact {
         height: 24vh;
         max-height: none;
@@ -5389,86 +5637,110 @@ label {
         margin-bottom: 80px;
         margin-left: 0%
     }
+
     .stamp {
         width: 104px;
         height: 104px
     }
+
     .press-container {
         padding-left: 32px;
         padding-right: 32px
     }
+
     .about-wrapper {
         margin-bottom: 80px
     }
+
     .podcast {
         display: block
     }
+
     .heading-4 {
         font-size: 24px;
         line-height: 32px
     }
+
     .ax-icon.active {
         display: none
     }
+
     .leaves {
         margin-top: -160px;
         right: -48px
     }
+
     .circle {
         width: 20vh;
         height: 20vh
     }
+
     .text-wrap {
         overflow: visible
     }
+
     .heading-5 {
         font-size: 16px;
         line-height: 24px
     }
+
     .menu__expand {
         width: 320px
     }
+
     .menu_heading {
         margin-left: 32px
     }
+
     .subnav-text {
         margin-right: 0
     }
+
     .item {
         grid-column-gap: 0px;
         grid-template-columns: 1fr
     }
+
     .press__grid {
         grid-template-columns: 1fr
     }
+
     .img-press-container {
         display: none
     }
+
     .banner-container {
         flex-direction: column;
         align-items: flex-start;
         padding-top: 12px;
         padding-bottom: 8px
     }
+
     .banner-text {
         margin-bottom: 0
     }
+
     .hours-row {
         grid-column-gap: 0px
     }
+
     .success-message.ended {
         text-align: left
     }
+
     .time-indicator {
         margin-right: 4px
     }
+
     .accordion-title {
         line-height: 30px
     }
+
     .accordion-icon.open,
     .accordion-icon.default {
         top: 10px
     }
+
     .tabs {
         padding-left: 24px;
         padding-right: 24px
